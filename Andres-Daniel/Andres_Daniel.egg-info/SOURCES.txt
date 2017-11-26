@@ -1,0 +1,15 @@
+README.rst
+setup.py
+Andres_Daniel.egg-info/PKG-INFO
+Andres_Daniel.egg-info/SOURCES.txt
+Andres_Daniel.egg-info/dependency_links.txt
+Andres_Daniel.egg-info/top_level.txt
+andan/__init__.py
+andan/admin.py
+andan/apps.py
+andan/models.py
+andan/tests.py
+andan/urls.py
+andan/views.py
+andan/migrations/0001_initial.py
+andan/migrations/__init__.py

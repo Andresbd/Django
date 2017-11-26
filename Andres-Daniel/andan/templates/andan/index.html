@@ -1,0 +1,9 @@
+{% if latest_actor_list %}
+    <ul>
+    {% for actor in latest_actor_list %}
+        <li><a href="{% url 'detail' actor.id %}">{{ actor.last_name }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No actores disponibles.</p>
+{% endif %}

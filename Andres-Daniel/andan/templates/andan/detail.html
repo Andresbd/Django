@@ -1,0 +1,8 @@
+{{ actor }}
+
+<h1>{{ actor.last_name }}</h1>
+<ul>
+{% for choice in actor.choice_set.all %}
+    <li>{{ choice.choice_text }}</li>
+{% endfor %}
+</ul>
